@@ -41,11 +41,3 @@ Route::resource('mensagens', MensagemController::class);
 Route::resource('campanhas', CampanhaController::class);
 Route::post('/campanhas/{campanha}/iniciar-envio', [CampanhaController::class, 'iniciarEnvio'])->name('campanhas.iniciar-envio');
 
-// Rotas para páginas e textos (placeholder)
-Route::get('/paginas', function () {
-    return view('paginas.index');
-})->name('paginas.index');
-
-Route::get('/textos', function () {
-    return view('textos.index');
-})->name('textos.index');

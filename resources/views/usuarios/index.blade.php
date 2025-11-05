@@ -514,22 +514,6 @@
                     </div>
                 </a>
                 
-                <a href="/paginas" class="nav-item">
-                    <i class="fas fa-file-alt"></i>
-                    <div class="nav-item-text">
-                        <h3>Páginas</h3>
-                        <p>Organize seu Conteúdo</p>
-                    </div>
-                </a>
-                
-                <a href="/textos" class="nav-item">
-                    <i class="fas fa-font"></i>
-                    <div class="nav-item-text">
-                        <h3>Textos</h3>
-                        <p>Comunique Claramente</p>
-                    </div>
-                </a>
-                
                 <a href="/promocoes" class="nav-item">
                     <i class="fas fa-comment-dots"></i>
                     <div class="nav-item-text">
@@ -650,12 +634,6 @@
                                             @endif
                                             @if($usuario->perm_imagens)
                                                 <span class="permission-badge active">Imagens</span>
-                                            @endif
-                                            @if($usuario->perm_paginas)
-                                                <span class="permission-badge active">Páginas</span>
-                                            @endif
-                                            @if($usuario->perm_textos)
-                                                <span class="permission-badge active">Textos</span>
                                             @endif
                                             @if($usuario->perm_promocoes)
                                                 <span class="permission-badge active">Promoções</span>

@@ -505,22 +505,6 @@
                 </div>
                 
                 <div class="nav-item">
-                    <i class="fas fa-file-alt"></i>
-                    <div class="nav-item-text">
-                        <h3>Páginas</h3>
-                        <p>Organize seu Conteúdo</p>
-                    </div>
-                </div>
-                
-                <div class="nav-item">
-                    <i class="fas fa-font"></i>
-                    <div class="nav-item-text">
-                        <h3>Textos</h3>
-                        <p>Comunique Claramente</p>
-                    </div>
-                </div>
-                
-                <div class="nav-item">
                     <i class="fas fa-comment-dots"></i>
                     <div class="nav-item-text">
                         <h3>Promoções</h3>
